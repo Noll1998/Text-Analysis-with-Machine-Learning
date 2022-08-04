@@ -5,7 +5,7 @@ Applying NLP techniques to analyze a text dataset with Python libraries and tool
   This project uses the Python libraries NumPy, Matplotlib, Pandas, Sklearn, Seaborn, and NLTK to do text analysis with Machine Learning methods. The techniques applied are text preprocessing such as stemming and lemmatization, as well as dimensionality reduction with t-SNE.  
   Natural Language Process (NLP) applies Machine Learning techniques to analyze text and comprehend its meaning. One of the most popular datasets for text analytics is the 20 Newsgroups Dataset, which is a collect of approximately 20,000 documents about 20 different topics, ranging from electronics/hardware to sports and cars. 
 The data is in the form of a dictionary and its keys are as follows:
-<img src="https://user-images.githubusercontent.com/68149933/182965521-050374db-fac9-4422-bb85-24107a3faec3.png" width="480">
+<img src="https://user-images.githubusercontent.com/68149933/182965521-050374db-fac9-4422-bb85-24107a3faec3.png" width="500">
 
   The ‘data’ key holds the content of the documents while ‘filenames’ contains the path to the document within the filesystem. The ‘target_names’ key is the category to which the document belongs to, such as ‘alt.atheism’, ‘comp.graphics’, and ‘comp.os’. The ‘target’ key shows a number between 0 and 19, corresponding to the key to one of the 20 available categories. As shown below, the distribution of the topics is symmetric, therefore each category is fairly represented compared to the others. 
   
